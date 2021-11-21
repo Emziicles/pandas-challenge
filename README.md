@@ -48,6 +48,12 @@ The below each broken by gender
 - Average Purchase Total per Person by Gender
 
 
+|Gender	            |Purchase Count|Average Purchase Price  |Total Purchase Value |Average Purchase Per Person |
+|-------------------|--------------|------------------------|---------------------|----------------------------|
+|Female	            |113           |$3.20                   |	$361.94	            |$4.47                       |
+|Male               |652	         |$3.02	                  |$1967.64	            |$4.07                       |
+|Other/Non-Disclosed|15	           |$3.35	                  |$50.19	              |$4.56                       |
+
 **Age Demographics**
 The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
 
