@@ -1,7 +1,6 @@
-# pandas-challenge
-Data Boot Camp Pandas Homework
+# Data Boot Camp Pandas Homework
 
-Option 1: Heroes of Pymoli
+## Heroes of Pymoli
 
 Congratulations! After a lot of hard work in the data wrangling mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
 Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
@@ -12,6 +11,10 @@ Your final report should include each of the following:
 
 - Total Number of Players
 
+|Total Players|
+|-------------|
+|   576       |
+
 **Purchasing Analysis (Total)**
 
 - Number of Unique Items
@@ -19,11 +22,22 @@ Your final report should include each of the following:
 - Total Number of Purchases
 - Total Revenue
 
+|Number of Unique Items|Average Price|Number of Purchases|Total Revenue|
+|----------------------|-------------|-------------------|-------------|
+|     179              |    $3.05    |    780            |    $2379.77 |
+
+
 **Gender Demographics**
 
 - Percentage and Count of Male Players
 - Percentage and Count of Female Players
 - Percentage and Count of Other / Non-Disclosed
+
+|Gender|Percentage of Players|Total Count|
+|------|---------------------|-----------|
+|  Male|84.03%               |  484      |   
+|Female|14.06%               |  81       |   
+|Other |1.91%                |  11       |   
 
 **Purchasing Analysis (Gender)**
 The below each broken by gender
@@ -42,7 +56,6 @@ The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
 - Total Purchase Value
 - Average Purchase Total per Person by Age Group
 
-
 **Purchasing Analysis (age)**
 The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
 
@@ -50,9 +63,6 @@ The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
 - Average Purchase Price
 - Total Purchase Value
 - Average Purchase Total per Person by Age
-
-
-
 
 **Top Spenders**
 Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
@@ -62,9 +72,6 @@ Identify the the top 5 spenders in the game by total purchase value, then list (
 - Average Purchase Price
 - Total Purchase Value
 
-
-
-
 **Most Popular Items**
 Identify the 5 most popular items by purchase count, then list (in a table):
 
@@ -73,9 +80,6 @@ Identify the 5 most popular items by purchase count, then list (in a table):
 - Purchase Count
 - Item Price
 - Total Purchase Value
-
-
-
 
 **Most Profitable Items**
 Identify the 5 most profitable items by total purchase value, then list (in a table):
@@ -87,10 +91,14 @@ Identify the 5 most profitable items by total purchase value, then list (in a ta
 - Total Purchase Value
 
 
+**Observable Trends**
 
-As final considerations:
+Although the male purchase count is overall much higher, it is actually
+the "Other/Non-Disclosed" gender that has the highest average per 
+person.
 
-You must use the Pandas Library and the Jupyter Notebook.
-You must submit a link to your Github/Git Lab repo that contains your Jupyter Notebook.
-You must include a written description of three observable trends based on the data.
-See Example Solution for a reference on expected format.
+The 20 - 24 age group category makes up almost half of the entire game
+purchases.
+
+The item "Final Critic" was both the most popular and the most profitable
+item, with a total purchase value of $59.99.
